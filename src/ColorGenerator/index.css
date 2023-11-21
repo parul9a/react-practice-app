@@ -1,0 +1,43 @@
+article.color-light {
+  color: #fff;
+}
+section.colors {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+article.color {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+section.container {
+  display: grid;
+  padding: 2rem;
+  row-gap: 1.5rem;
+  height: 160px;
+}
+form.color-form {
+  display: flex;
+}
+input[type="text"] {
+  border-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  max-width: 200px;
+}
+input[type="color"] {
+  height: 100%;
+  background-color: var(--white);
+  border-color: var(--white);
+}
+section.colors {
+  display: grid;
+  min-height: calc(100vh - 160px);
+  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}
+article.color p {
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+}

@@ -1,0 +1,41 @@
+section.section-center {
+  display: block;
+  width: 80vw;
+  max-width: 40rem;
+}
+h4.lorem-heading {
+  text-transform: uppercase;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+form.lorem-form {
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+label {
+  text-transform: capitalize;
+}
+input#amount {
+  background: #cbd5e1;
+  border: none;
+  border-radius: 4px;
+  height: 35px;
+  width: 64px;
+  text-align: center;
+}
+.generate-text {
+  background: #10b981;
+  width: 87px;
+  height: 35px;
+  padding: 10px 12px 10px 12px;
+  border-radius: 4px;
+}
+article.lorem-text {
+  margin-top: 50px;
+}
+article.lorem-text p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 18px;
+}
