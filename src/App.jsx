@@ -13,12 +13,19 @@ import ColorGenerator from "./ColorGenerator";
 import Birthday from "./Birthday";
 import ToursDetail from "./ToursDetail";
 import GroceryBud from "./GroceryBud";
+import GroceryNew from "./GroceryNew";
+import SearchFilter from "./SearchFilter";
 function App() {
   return (
     <>
       <main>
         <GroceryBud />
       </main>
+      <main>
+        <SearchFilter />
+      </main>
+
+      <GroceryNew />
       <main>
         <Menu />
       </main>
