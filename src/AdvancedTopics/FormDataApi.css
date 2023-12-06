@@ -1,0 +1,15 @@
+form.formData {
+  border: 1px solid #ba68a6;
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+  padding: 20px 0;
+}
+form.formData h3 {
+  margin-bottom: 16px;
+}
+form.formData .form-row input {
+  padding: 0px;
+  max-width: 100%;
+  font-size: large;
+}

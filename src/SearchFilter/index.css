@@ -1,0 +1,36 @@
+section.outerForm {
+  padding: 25px;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  background: aliceblue;
+}
+.searchField input[type="text"] {
+  margin-left: 15px;
+  padding: 5px;
+  font-size: 14px;
+}
+.listSection {
+  margin: 25px auto;
+}
+ul.listItems {
+  margin-top: 15px;
+}
+ul.listItems li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.addUserSection {
+  margin: 20px auto;
+}
+.addUserSection input {
+  font-size: 14px;
+  margin: 10px auto;
+}
+li.userItem {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+button.btn.removeBtn {
+  background: #b51b1b;
+}

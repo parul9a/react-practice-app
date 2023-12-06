@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import Search from "./Search";
 import List from "./List";
-
+import "./index.css";
+import AddUser from "./AddUser";
 export default function index() {
-  const [searchItem, setSearchItem] = useState("");
-  const handleSearch = (e) => {
-    setSearchItem(e.target.value);
-  };
   const list = [
     {
       id: 1,
@@ -33,14 +30,18 @@ export default function index() {
       name: "Car",
     },
   ];
+  const [searchItem, setSearchItem] = useState("");
+  const handleSearch = (e) => {
+    setSearchItem(e.target.value);
+  };
   const filterItem = list.filter((item) => {
     return item.name.toLowerCase().includes(searchItem);
   });
-
   return (
-    <div>
+    <section className="outerForm">
       <Search searchItem={searchItem} handleSearch={handleSearch} />
       <List list={filterItem} />
-    </div>
+      <AddUser list={list} />
+    </section>
   );
 }

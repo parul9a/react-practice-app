@@ -1,0 +1,12 @@
+form.multipleInputForm {
+  padding: 30px;
+  border: 1px solid #cb06949e;
+  text-align: left;
+  border-radius: 20px;
+}
+form.multipleInputForm .form-row {
+  margin-top: 15px;
+}
+form.multipleInputForm input[type="text"] {
+  padding: 0;
+}

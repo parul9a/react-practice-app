@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function FetchSingleData() {
   const url = "https://api.github.com/users/QuincyLarson";
-  const [loading, seetLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [isError, setIsError] = useState(false);
   const [user, setUser] = useState(null);
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function FetchSingleData() {
         console.log(error);
         setIsError(true);
       }
-      seetLoading(false);
+      setLoading(false);
     };
     fetchUser();
   }, []);

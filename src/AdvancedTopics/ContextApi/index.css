@@ -1,0 +1,26 @@
+.outer-section {
+  margin: 20px auto;
+}
+nav.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.nav-container ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.user-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}

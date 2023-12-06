@@ -1,0 +1,19 @@
+form.useRefForm {
+  display: inline-grid;
+  margin: 20px;
+}
+form.useRefForm input[type="text"] {
+  padding: 0;
+  margin: 10px;
+}
+form.useRefForm {
+  display: inline-grid;
+  margin: 20px;
+  border: 1px solid #c490db;
+  border-radius: 20px;
+  padding: 20px;
+}
+button.btn.form_useRef {
+  width: fit-content;
+  margin: auto;
+}

@@ -1,12 +1,17 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Form({ addItem }) {
   const [newItemName, setNewItemName] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (newItemName === "") return;
+    if (newItemName === "") {
+      toast.error("Please provide the value");
+      return;
+    }
     addItem(newItemName);
     setNewItemName("");
+    console.log("newItemName: ", newItemName);
   };
   return (
     <form onSubmit={handleSubmit}>
@@ -18,7 +23,7 @@ export default function Form({ addItem }) {
           value={newItemName}
           onChange={(e) => setNewItemName(e.target.value)}
         />
-        <button className="btn" type="submit">
+        <button className="btn addItem" type="submit">
           Add Item
         </button>
       </div>
