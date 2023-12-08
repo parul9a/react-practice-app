@@ -1,0 +1,135 @@
+/* Navbar */
+
+nav {
+  background: #007aff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  align-items: center;
+}
+.nav-container {
+  display: block;
+  position: relative;
+}
+.nav-container svg {
+  font-size: 2.25rem;
+  color: #fff;
+}
+.amount-container {
+  position: absolute;
+  top: -0.85rem;
+  right: -0.85rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: var(--primary-500);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-amount {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+/* Cart */
+.cart {
+  min-height: calc(100vh - 5rem);
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 2.5rem 0;
+}
+.cart header h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.empty-cart {
+  text-transform: lowercase;
+  text-align: center;
+  color: grey;
+}
+footer hr {
+  background-color: #bab8b8;
+  margin-bottom: 1rem;
+  border-color: transparent;
+  border-width: 1px;
+}
+.cart footer {
+  text-align: center;
+  margin-top: 5rem;
+}
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.cart-total span {
+  background: var(--primary-500);
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+.cart-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  column-gap: 1.5rem;
+  margin: 1.5rem;
+}
+.cart-item img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.cart-item h5 {
+  margin-bottom: 0;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: darkslategrey;
+}
+span.item-price {
+  color: grey;
+  display: block;
+  background: transparent;
+}
+button.remove-btn {
+  color: var(--primary-500);
+  border-color: transparent;
+  background: transparent;
+  text-transform: capitalize;
+  margin-top: 0.375px;
+  cursor: pointer;
+  letter-spacing: normal;
+  font-size: 0.85rem;
+}
+button.remove-btn:hover {
+  color: var(--primary-600);
+}
+.amount-btn {
+  width: 1.5rem;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.amount-icon {
+  font-size: 1.25rem;
+  color: var(--primary-500);
+}
+.amount-icon:hover {
+  color: var(--primary-700);
+}
+.amount {
+  font-size: 1.25rem;
+  display: block;
+}

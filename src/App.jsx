@@ -20,12 +20,15 @@ import UseRefExample from "./AdvancedTopics/UseRefExample";
 import NavBar from "./Navbar";
 import ContextApi from "./AdvancedTopics/ContextApi";
 import SideBarModal from "./SideBarModal";
+import Cart from "./Cart";
+// import ReducerBasics from "./AdvancedTopics/UseReducer/ReducerBasics";
 // import CustomHooks from "./AdvancedTopics/CustomHooks/ToggleHook";
 // import FetchPerson from "./AdvancedTopics/CustomHooks/FetchPerson";
 function App() {
   return (
     <>
       <SideBarModal />
+      <Cart />
       <NavBar />
       <ContextApi />
       <main>
